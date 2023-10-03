@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_table">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/riize" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/Nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap" />
+
+        <EditText
+            android:id="@+id/Nama2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="............................." />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >>
+        <TextView
+            android:id="@+id/AlamatRumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Rumah" />
+
+        <EditText
+            android:id="@+id/Alamat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="............................." />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >>
+
+        <TextView
+            android:id="@+id/NoWhatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Whatsapp" />
+
+        <EditText
+            android:id="@+id/NoWhatsapp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="............................." />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center|bottom"
+        />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".framelayout">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        app:srcCompat="@drawable/wonbinfull" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="RISE and REALIZE"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="72dp"
+        android:layout_height="66dp"
+        android:layout_gravity="top|left"
+        app:srcCompat="@drawable/riize" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, It's me Park Wonbin"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="120dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|left"
+        app:srcCompat="@drawable/left" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/right"
+        android:layout_gravity="center|right"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get to know me"
+        android:layout_gravity="center|bottom"/>
+
+</FrameLayout>
